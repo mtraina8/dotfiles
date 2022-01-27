@@ -1,0 +1,43 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.codeLens": false,
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<space>"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    }
+  ],
+  "editor.foldingStrategy": "indentation",
+  "editor.showFoldingControls": "always",
+  "editor.unfoldOnClickAfterEndOfLine": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.glyphMargin": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // "eslint.validate": [
+  //   "javascript"
+  // ],
+  // "editor.formatOnSave": true,
+  // "root-vs-code-extension.useSpring": true,
+  "[ruby]": {
+    "editor.formatOnSave": false
+  },
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.tabs.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "One Monokai",
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  },
+  "diffEditor.ignoreTrimWhitespace": false
+}
