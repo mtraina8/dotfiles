@@ -21,23 +21,61 @@
   "workbench.editor.untitled.hint": "hidden",
   "editor.glyphMargin": false,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  // "eslint.validate": [
-  //   "javascript"
-  // ],
-  // "editor.formatOnSave": true,
-  // "root-vs-code-extension.useSpring": true,
-  "[ruby]": {
-    "editor.formatOnSave": false
-  },
-  "tabnine.experimentalAutoImports": true,
   "terminal.integrated.tabs.enabled": false,
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "One Monokai",
+  "workbench.colorTheme": "One Dark",
   "workbench.editorAssociations": {
     "*.pdf": "default"
   },
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.enableExperiments": false,
+  "workbench.tips.enabled": false,
+  "editor.unicodeHighlight.allowedLocales": {
+    "es": true
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.fontSize": 12,
+  "codesnap.backgroundColor": "none",
+  "git.mergeEditor": false,
+  "root-vs-code-extension.useSpring": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "One Dark italic",
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "keyword",
+          "markup.underline.link",
+          "storage.modifier",
+          "storage.type",
+          "string.url",
+          "variable.language.super",
+          "variable.language.this"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "One Dark italic reset",
+        "scope": [
+          "keyword.operator",
+          "keyword.other.type",
+          "storage.modifier.import",
+          "storage.modifier.package",
+          "storage.type.built-in",
+          "storage.type.function.arrow",
+          "storage.type.generic",
+          "storage.type.java",
+          "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
 }
