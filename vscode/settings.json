@@ -39,5 +39,9 @@
   "workbench.editorAssociations": {
     "*.pdf": "default"
   },
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.enableExperiments": false,
+  "workbench.tips.enabled": false
 }
